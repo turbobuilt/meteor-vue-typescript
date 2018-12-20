@@ -1,5 +1,5 @@
 Package.describe({
-  name: 'nathantreid:vue-typescript',
+  name: 'turbobuilt:vue-typescript',
   version: '0.0.2',
   summary: 'Add typescript support for vue components',
   git: 'https://github.com/nathantreid/meteor-vue-typescript',
@@ -10,7 +10,7 @@ Package.registerBuildPlugin({
   name: "vue-component-typescript",
   use: [
     'ecmascript@0.5.8',
-    'barbatus:typescript-compiler@0.9.5'
+    'turbobuilt:typescript-compiler@0.9.5'
   ],
   sources: [
     'partial-input-file.js',

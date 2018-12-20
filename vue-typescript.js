@@ -1,5 +1,5 @@
 import { Meteor } from 'meteor/meteor';
-import { TypeScriptCompiler } from 'meteor/barbatus:typescript-compiler';
+import { TypeScriptCompiler } from 'meteor/turbobuilt:typescript-compiler';
 import fs from 'fs';
 import meteorProjectPath from 'meteor-project-path';
 import PartialInputFile from './partial-input-file';
